@@ -12,10 +12,20 @@
 // "abcdefghijklmnopqrstuvwxyz
 //var strw = 'qwertyuiop';
 
-// console.log(strw);
-let strw = "qwertyuiop";
+// console.log(strw); 
+// let strw = "qwertyuiop";
 // function full (strw){
 //      alert(strw)
 // }
-let ourfunct = (strw) => alert(strw.split('').reverse().join(''));
-ourfunct(strw);
+// let ourfunct = (strw) => alert(strw.split('').reverse().join(''));
+// ourfunct(strw);
+
+// a = "xyaabbbccccdefww"
+// b = "xxxxyyyyabklmopq"
+// function sortStrin(a,b){
+    
+// }
+// console.log(sortStrin(a,b))
+const returnInt = (element) => parseInt(element, 2);
+
+alert(['0100011', '0100101', '0101010'].map(returnInt))
