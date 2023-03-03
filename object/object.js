@@ -47,6 +47,6 @@ function OurUser(name, lastName){
         lastName,
     }
 }
-let user = OurUser('Vladimir', 'Zaycev')
+let user = OurUser('Vladimir', 'Zaycev');
 alert(user.name)
   
