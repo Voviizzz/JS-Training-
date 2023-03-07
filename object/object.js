@@ -177,14 +177,42 @@
 //     console.log(menu);
 // }  
 // multiplyNumeric(menu)
-  
+//_____________________________Копирование объектов и ссылки_____________________________________
 
+// let user = { name: "John" };
+// let admin = user; // копируется ссылка
+// let user = { name: 'John' };
+// let admin = user;
+// admin.name = 'Pete'; // изменено по ссылке из переменной "admin"
+// alert(user.name); // 'Pete', изменения видны по ссылке из переменной "user"
+ //_________________________________________________________________________________________________________
 
-
-
-
-
-
+//  let user = {
+//     name: 'Vladimir',
+//     age: 30
+//  }
+//  let clone = {
+//  }
+//  for(let key in user){
+//     clone[key] = user[key]
+//  }
+//  clone.name = 'jhone'
+// console.log(clone);
+//_________________________________________________________________________________________________________
+// let user = { name: 'Vladimir'}
+// let userLastName = { lastName: 'Zaycev'}
+// let userAge = {age: 22}
+// Object.assign(user, userLastName, userAge)
+// console.log(user);
+//_________________________________________________________________________________________________________
+// let user = {}
+// user.name = 'Vladimir'
+// user.age = 23
+// user.worlPlace = 'RPTP'
+// let cloneUser = Object.assign({}, user)
+// cloneUser.name = 'Jhone'
+// console.log(cloneUser)
+//_________________________________________________________________________________________________________
 
 
 
