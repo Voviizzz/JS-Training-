@@ -55,8 +55,7 @@
 //   }
 // }
 // let admin = user
-// user = null
-// admin.sayHi()
+// user = null // admin.sayHi()
 // console.log(user);
 
 // let user = {
