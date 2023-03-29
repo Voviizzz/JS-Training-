@@ -840,16 +840,29 @@
 // }
 
 // console.log(usersMapped(users));
-let vasyas = { name: "Вася", age: 0 };
+// let vasyas = { name: "Вася", age: 0 };
+// let vasya = { name: "Вася", age: 25 };
+// let petya = { name: "Петя", age: 30 };
+// let masha = { name: "Маша", age: 28 };
+
+// let arr = [ vasya, petya, masha, vasyas ];
+
+
+
+// let sortByAge = (arr) => {
+//   return arr.sort((a,b)=> a.name - b.name )}
+
+// console.log(sortByAge(arr));
+
 let vasya = { name: "Вася", age: 25 };
 let petya = { name: "Петя", age: 30 };
-let masha = { name: "Маша", age: 28 };
+let masha = { name: "Маша", age: 29 };
 
-let arr = [ vasya, petya, masha, vasyas ];
+let arr = [ vasya, petya, masha ];
 
+// alert( getAverageAge(arr) ); // (25 + 30 + 29) / 3 = 28
 
+let getAverageAge = (arr) => {
+ return arr.reduce((acc, item) => acc + item.age, 0) / arr.length}
 
-let sortByAge = (arr) => {
-  return arr.sort((a,b)=> a.name - b.name )}
-
-console.log(sortByAge(arr));
+console.log(getAverageAge(arr));
