@@ -63,15 +63,15 @@
 
 // Напишите функцию count(obj), которая возвращает количество свойств объекта:
 
-let user = {
-  name: 'John',
-  age: 30
-};
+// let user = {
+//   name: 'John',
+//   age: 30
+// };
 
-function count(user){
-  return Object.keys(user).length
-}
+// function count(user){
+//   return Object.keys(user).length
+// }
 
 
 
-alert( count(user) ); // 2
+// alert( count(user) ); // 2
